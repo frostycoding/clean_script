@@ -1,0 +1,23 @@
+#! /bin/bash
+
+### delete unwanted files
+
+sudo apt autoremove
+sudo apt autoclean
+sudo apt clean
+
+# sudo apt update
+# pamac update
+
+clear
+
+cd /var/log/ && sudo rm kern* syslog syslog.1
+sudo journalctl --rotate --vacuum-size=50M
+
+cd && rm -rf .cache
+
+clear
+
+### important ###
+
+# run "chmod +x clean" & run "sudo mv clean /usr/local/bin"  
