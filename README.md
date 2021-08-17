@@ -1,6 +1,7 @@
 ### A script that cleanes your linux machine
 
-This is a script that cleanes logs, journals, and cache
+* This is a script that frees up space
+* This script cleanes logs, journals, and cache
 
 ### Cloning this repo
 
