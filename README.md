@@ -1,4 +1,4 @@
-### A script that cleanes your linux machine
+### Script that frees space
 
 * This is a script that frees up space
 * This script cleanes logs, journals, and cache
